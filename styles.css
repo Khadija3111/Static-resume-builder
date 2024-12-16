@@ -1,0 +1,81 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-color: #384B70;
+}
+h1{
+    padding-top: 20px;
+    padding-left: 350px;
+    font-weight: bold;
+   
+}
+h1, h2 {
+    color: #ffffff;
+   
+}
+
+.resume-builder {
+
+ padding-left: 240px;
+ /* background-color: #030637; */
+ height: max-content;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+
+.form-section, .resume-section {
+    width: 65%;
+    background: white;
+    padding-left: 25px;
+    padding-right: 25px;
+padding-bottom: 25px;
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    align-self: center;
+}
+fieldset{
+border: solid #B8001F 1px;
+border-radius: 5px;
+margin-top: 5px;
+}
+legend{
+    font-size: 19px;
+    font-weight:600;
+    color: #384B70;
+}
+form label {
+    display: block;
+    margin-top: 10px;
+    color: #384B70;
+    font-size: 17px;
+}
+
+form input, form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+button {
+    margin-top: 10px;
+    background-color:#B8001F;
+    color:#ffffff;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+button:hover {
+    background-color: #beb4b4;
+    color: #507687;
+}
